@@ -42,7 +42,7 @@ class MusicDataPopulateMapFromLookupTables(context: SparkContext) {
     hconf.set(TableInputFormat.INPUT_TABLE, tablename)
     getCommonLookupMap(tablename)
     
-    
+     
   }
   
   def getSongArtistMap() = {
