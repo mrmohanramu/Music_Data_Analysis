@@ -17,7 +17,7 @@ class MobileMusicDataProcessor(param: String, context: SparkContext, sqc:SQLCont
   val filePath: String = param
   val sc: SparkContext = context
   val sqlContext:SQLContext = sqc
-  
+ 
   
   def processData(): DataFrame = {
     val log = LogManager.getRootLogger
