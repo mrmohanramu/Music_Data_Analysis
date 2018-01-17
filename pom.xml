@@ -34,7 +34,7 @@
                 <version>2.15.2</version>
                 <executions>
                     <execution>
-                        <goals>
+                        <goals> 
                             <goal>compile</goal>
                         </goals>
                     </execution>
