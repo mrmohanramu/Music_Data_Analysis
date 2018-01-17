@@ -21,7 +21,7 @@ class MusicDataAnalyzer(context: SparkContext, sqc: SQLContext, musicDataDFParam
     import sqlContext.implicits._
     musicDataDF.registerTempTable("MusicDataDetailed")
     log.info("Before calling getAllRecords()")
-    
+     
     try {
       getAllRecords()
     } catch {
