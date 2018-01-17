@@ -4,7 +4,7 @@ import org.apache.spark._
 import org.apache.spark.sql.SQLContext
 import org.apache.spark.sql.DataFrame
 import scala.collection.mutable.HashMap
-
+ 
 
 object MusicDataProcessorApp {
   def main(args: Array[String]) {
