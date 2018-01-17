@@ -9,7 +9,7 @@ import org.apache.log4j.{ Level, LogManager, PropertyConfigurator }
 import org.apache.spark.broadcast.Broadcast
 import java.text.SimpleDateFormat
 import scala.collection.mutable.HashMap
-
+ 
 case class CustomException(message:String) extends Exception(message)
 
 class WebMusicDataProcessor(param: String, context: SparkContext, sqc: SQLContext) extends Serializable {
